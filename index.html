@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1 class="h11">Foydalanuvchilarni saralash</h1>
+      <span style="display: none" class="loader"></span>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Ism bo‘yicha qidirish..." />
+
+        <select id="sort">
+          <option value="">Saralash</option>
+          <option value="name-asc">Ism A-Z</option>
+          <option value="name-desc">Ism Z-A</option>
+          <option value="age-asc">Yosh (kichikdan katta)</option>
+          <option value="age-desc">Yosh (kattadan kichik)</option>
+        </select>
+      </div>
+      <div class="data"></div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
